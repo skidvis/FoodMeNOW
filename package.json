@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "fd1e101e-0c6b-4925-ac65-71f9f4d1c182",
+    "appType": "app",
+    "appDisplayName": "FoodMeNow",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_location",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "meson",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "FoodMeNow"
+      }
+    }
+  }
+}

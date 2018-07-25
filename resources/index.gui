@@ -1,0 +1,86 @@
+<svg>
+    
+  <svg id="main" display="inline">
+    <text id="mylabel" y="80" x="50%" text-anchor="middle">Phone not detected.</text>
+    <use id="mybutton" href="#square-button" y="30%" fill="fb-blue">
+      <set href="#text" attributeName="text-buffer" to="Searching.." />
+    </use>
+  </svg>
+  
+  <svg id="alt" display="none">
+
+  <symbol id="tile-foods" focusable="false" pointer-events="visible" system-events="all">
+    <text id="destination" font-size="25" x="5" y="40" fill="white" text-length="32"></text>
+    <text id="distance"  x="5"   y="78" font-size="20" fill="white"></text>
+    <rect id="tile-divider-bottom" class="tile-divider-bottom" />
+  </symbol>
+
+  <textarea id="status" class="status">status message to be displayed here</textarea>
+
+  <use id="foodsList" href="#tile-list" height="100%" width="100%">
+    <var id="reorder-enabled" value="0"/>
+    <var id="separator-height-bottom" value="2"/>
+
+    <use id="foods-0" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-1" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-2" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-3" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-4" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-5" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-6" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-7" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-8" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-9" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-10" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-11" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-12" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-13" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-14" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-15" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-16" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-17" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-18" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+    <use id="foods-19" href="#tile-list-item" class="item">
+      <use href="#tile-foods" />
+    </use>
+  </use>
+  </svg>
+</svg>
